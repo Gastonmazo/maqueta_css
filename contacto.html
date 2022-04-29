@@ -11,6 +11,171 @@
     <title>GM.Accesorios</title>
 </head>
 <body>
+    <!--Header-->
+    <header>
+        <!--Nav-->
+            <nav class="navbar navbar-expand-xl navbar-dark bg-dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="inde.html">GM.Accesorios</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDark" aria-controls="navbarDark" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse show" id="navbarDark">
+                        <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="inde.html">Inicio</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="" placeholder="" aria-label="">
+                            <button class="btn btn-outline-light" type="submit">Buscar</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+        <!--Fin Nav-->
+    </header>
+    <!--Fin Header-->
+    <!--Contacto-->
+    <div class="contacto">
+        <div id="leyenda_gral_top"></div>
+        <div id="leyenda_central" class="text-center"></div>
+        <div class="text-center leyenda-arriba">
+                <p>CONSULTA POR COMPRAS MAYORISTAS</p>
+        </div>
+        <div class="ley_gral_top2"></div>
+        <div class="spot_top">
+            <div class="container"></div>
+        </div>
+        <div class="container general">
+            <div class="row">     
+                <div class="col-md-12 cols-grals">
+                    <div class="row">
+                        <div class="col-md-12 contact-form">
+                            <form action="contactenos.php" method="post" name="reg" id="reg">
+                                <input type="hidden" name="subject" value="Formulario automático desde la Web">
+                                <h1>Contáctanos</h1>
+                                <p>
+                                    <strong>Teléfono:</strong> 3704 - 301815<br>
+                                <strong>E-mail:</strong> <a href="#" onclick="ga_TrackGoal('Mailto','Consulta','Contacto');">GM.accesorios.fsa@hotmail.com</a> </p>
+                                <h5>Formulario de Contacto</h5>
+                                <p>Por favor complete el formulario para dejar su consulta o comentario.</p>
+                                <div class="row">
+                                    <div class="form-group col-md-4">
+                                        <label>Nombre</label>
+                                        <input type="text" name="nombre" autofocus="" value="" class="form-control" title="Nombre" required="">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Apellido</label>
+                                        <input type="text" name="apellido" value="" class="form-control" title="Apellido" required="">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>E-mail:</label>
+                                        <input type="email" name="email" value="" class="form-control" title="E-mail:" required="">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Teléfono:</label>
+                                        <input type="number" name="tel" value="" class="form-control" title="Teléfono:" required="">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>País:</label>
+                                        <input type="text" name="pais" value="" class="form-control" title="País:">
+                                    </div>
+                                    <div class="form-group col-md-4">
+                                        <label>Provincia:</label>
+                                        <input type="text" name="Provincia" value="" class="form-control" title="Provincia:">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label>Comentarios</label>
+                                        <textarea name="consulta" required="" class="form-control" rows="8"></textarea>
+                                    </div>
+                                    <div class="form-group col-md-4 col-sm-4 col-xs-12">
+                                        <button type="submit" name="Submit" class="btn load btn-success pull-right" aria-label="ENVIAR" data-loading-text=""> ENVIAR</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Fin de contacto-->
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer_container">
+            <div class="footer_section">
+                <h3 class="text-center"> INFORMACIÓN</h3>
+                <ul>
+                    <li class="footer_section_link">
+                        <a href="#">Nosotros</a>
+                    </li>
+                    <li class="footer_section_link">
+                        <a href="#">Preguntas Frecuentes</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <h3 class="text-center">AYUDA</h3>
+                <ul>
+                    <li class="footer_section_link">
+                        <a href="#">Cómo Comprar</a>
+                    </li>
+                    <li class="footer_section_link">
+                        <a href="#">Política de Cambios</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_section">
+                <h3 class="text-center">SEGUINOS</h3>
+                <div class="footer_redes">
+                    <a href="#"><i class="fab fa-facebook-square">facebook.com/GM.Accesorios.fsa</i></a>
+                    <a href="#"><i class="fab fa-instagram">instagram.com/GM.Accesorios.fsa</i></a>
+                </div>
+            </div>
+            <div class="footer_section">
+                <h3 class="text-center">CONTACTANOS</h3>
+                <ul>
+                    <li class="footer_section_link">
+                        <a href="#">Telefono: 3704 - 301815</a>
+                    </li>
+                    <li class="footer_section_link">
+                        <a href="#">Email: GM.Accesorios.fsa@hotmail.com</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="medios_pago">
+            <h3 class="text-center">MEDIOS DE PAGO</h3>
+            <ul>
+                <li>
+                    <img src="img/visa.png" class="img-fluid" alt="visa"/>
+                </li>
+                <li>
+                    <img src="img/mastercard.png" class="img-fluid" alt="mastercard"/>
+                </li>
+                <li>
+                    <img src="img/american.png" class="img-fluid" alt="american express" />
+                </li>
+                <li>
+                    <img src="img/naranja.png" class="img-fluid" alt="naranja"/>
+                </li>
+                <li>
+                    <img src="img/mercadopago.png" class="img-fluid" alt="mercado pago"/>
+                </li>
+            </ul>
+        </div>
+        <div class="copyright">
+            <p>© Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    <!--Fin Footer-->
     <!--BOOTSTRAP-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
